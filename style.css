@@ -3,17 +3,18 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Arial', sans-serif;
-    font-size: 1.2rem;
+    font-size: 1rem; /* Điều chỉnh kích thước chữ cơ bản */
     background: #ffedc2; /* Màu nền vàng nhạt */
     color: #333;
     overflow-x: hidden;
+    line-height: 1.5; /* Giảm khoảng cách giữa các dòng để dễ đọc */
 }
 
 /* Header */
 .header {
     background: #ffb800;
     text-align: center;
-    padding: 40px 20px;
+    padding: 30px 20px;
     color: white;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
     position: relative;
@@ -21,7 +22,7 @@ body {
 }
 
 .header h1 {
-    font-size: 3rem; /* Điều chỉnh lại kích thước chữ tiêu đề */
+    font-size: 2.5rem; /* Giảm kích thước tiêu đề */
     margin: 0;
     font-weight: bold;
     text-transform: uppercase;
@@ -29,7 +30,7 @@ body {
 }
 
 .header p {
-    font-size: 1.4rem; /* Điều chỉnh kích thước chữ cho phần mô tả */
+    font-size: 1.2rem; /* Giảm kích thước mô tả */
     margin: 10px 0;
 }
 
@@ -38,9 +39,9 @@ body {
     background: #ff6f00;
     color: white;
     text-decoration: none;
-    padding: 15px 40px; /* Điều chỉnh padding nút */
+    padding: 12px 30px; /* Giảm kích thước padding */
     border-radius: 20px;
-    font-size: 1.8rem; /* Điều chỉnh lại kích thước chữ */
+    font-size: 1.5rem; /* Giảm kích thước chữ */
     transition: transform 0.3s, background 0.3s;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
     cursor: pointer;
@@ -49,7 +50,7 @@ body {
 
 .action-button:hover {
     background: #ff8f00;
-    transform: scale(1.1);
+    transform: scale(1.05); /* Chỉnh hiệu ứng hover */
 }
 
 /* Tính Năng Độc Quyền */
@@ -59,12 +60,12 @@ body {
     padding: 20px 30px;
     border-radius: 15px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-    max-width: 800px;
+    max-width: 900px; /* Đảm bảo độ rộng hợp lý */
     text-align: center;
 }
 
 .feature-section h2 {
-    font-size: 2.2rem; /* Điều chỉnh lại kích thước chữ cho tiêu đề */
+    font-size: 2rem; /* Điều chỉnh lại kích thước chữ tiêu đề */
     color: #ff6f00;
     margin-bottom: 20px;
 }
@@ -80,7 +81,7 @@ body {
     background: #fff7e6;
     padding: 15px;
     border-radius: 10px;
-    font-size: 1.3rem; /* Điều chỉnh lại kích thước chữ */
+    font-size: 1.2rem; /* Giảm kích thước chữ */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -98,23 +99,23 @@ body {
     text-align: center;
     margin: 40px 0;
     background-color: #ffedc2; /* Nền cho phần giá */
-    padding: 40px 20px;
+    padding: 30px 20px; /* Giảm padding để phần giá không quá rộng */
 }
 
 .pricing-section h2 {
-    font-size: 3.5rem; /* Điều chỉnh kích thước chữ tiêu đề phần giá */
+    font-size: 3rem; /* Giảm kích thước chữ tiêu đề phần giá */
     color: #e94e02;
 }
 
 .pricing-section p {
-    font-size: 1.8rem; /* Điều chỉnh kích thước chữ cho mô tả */
+    font-size: 1.5rem; /* Điều chỉnh kích thước chữ mô tả */
     margin: 20px 0;
 }
 
 .pricing-section .action-button {
     margin-top: 30px;
-    padding: 20px 50px; /* Điều chỉnh lại kích thước nút */
-    font-size: 2rem; /* Điều chỉnh kích thước chữ nút */
+    padding: 15px 40px; /* Điều chỉnh lại kích thước nút */
+    font-size: 1.8rem; /* Giảm kích thước chữ nút */
 }
 
 /* Khách Hàng Nói Gì */
@@ -124,18 +125,18 @@ body {
     padding: 20px 30px;
     border-radius: 15px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-    max-width: 800px;
+    max-width: 900px; /* Đảm bảo độ rộng hợp lý */
     text-align: center;
 }
 
 .review-section h2 {
-    font-size: 2.5rem;
+    font-size: 2rem; /* Giảm kích thước chữ tiêu đề */
     color: #ff6f00;
     margin-bottom: 20px;
 }
 
 .review-item {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     margin: 10px 0;
     font-style: italic;
     color: #666;
@@ -175,7 +176,7 @@ body::before {
 
 /* Hiệu ứng hover nâng cấp */
 .feature-item:hover {
-    transform: translateY(-10px);
+    transform: translateY(-5px);
     background: #ffe4c4;
 }
 
