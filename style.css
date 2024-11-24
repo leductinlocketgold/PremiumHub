@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Arial', sans-serif;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     background: #ffedc2; /* Màu nền vàng nhạt */
     color: #333;
     overflow-x: hidden;
@@ -21,7 +21,7 @@ body {
 }
 
 .header h1 {
-    font-size: 2.5rem;
+    font-size: 3rem; /* Điều chỉnh lại kích thước chữ tiêu đề */
     margin: 0;
     font-weight: bold;
     text-transform: uppercase;
@@ -29,8 +29,8 @@ body {
 }
 
 .header p {
-    font-size: 1.3rem;
-    margin: 15px 0;
+    font-size: 1.4rem; /* Điều chỉnh kích thước chữ cho phần mô tả */
+    margin: 10px 0;
 }
 
 /* Nút Khám Phá Ngay */
@@ -38,9 +38,9 @@ body {
     background: #ff6f00;
     color: white;
     text-decoration: none;
-    padding: 15px 30px;
-    border-radius: 15px;
-    font-size: 1.5rem;
+    padding: 15px 40px; /* Điều chỉnh padding nút */
+    border-radius: 20px;
+    font-size: 1.8rem; /* Điều chỉnh lại kích thước chữ */
     transition: transform 0.3s, background 0.3s;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
     cursor: pointer;
@@ -64,7 +64,7 @@ body {
 }
 
 .feature-section h2 {
-    font-size: 2rem;
+    font-size: 2.2rem; /* Điều chỉnh lại kích thước chữ cho tiêu đề */
     color: #ff6f00;
     margin-bottom: 20px;
 }
@@ -80,7 +80,7 @@ body {
     background: #fff7e6;
     padding: 15px;
     border-radius: 10px;
-    font-size: 1.2rem;
+    font-size: 1.3rem; /* Điều chỉnh lại kích thước chữ */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -97,20 +97,24 @@ body {
 .pricing-section {
     text-align: center;
     margin: 40px 0;
+    background-color: #ffedc2; /* Nền cho phần giá */
+    padding: 40px 20px;
 }
 
 .pricing-section h2 {
-    font-size: 2rem;
+    font-size: 3.5rem; /* Điều chỉnh kích thước chữ tiêu đề phần giá */
     color: #e94e02;
 }
 
 .pricing-section p {
-    font-size: 1.3rem;
-    margin: 10px 0;
+    font-size: 1.8rem; /* Điều chỉnh kích thước chữ cho mô tả */
+    margin: 20px 0;
 }
 
 .pricing-section .action-button {
-    margin-top: 15px;
+    margin-top: 30px;
+    padding: 20px 50px; /* Điều chỉnh lại kích thước nút */
+    font-size: 2rem; /* Điều chỉnh kích thước chữ nút */
 }
 
 /* Khách Hàng Nói Gì */
@@ -125,13 +129,13 @@ body {
 }
 
 .review-section h2 {
-    font-size: 2rem;
+    font-size: 2.5rem;
     color: #ff6f00;
     margin-bottom: 20px;
 }
 
 .review-item {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     margin: 10px 0;
     font-style: italic;
     color: #666;
@@ -141,7 +145,7 @@ body {
 footer {
     text-align: center;
     padding: 20px;
-    font-size: 1rem;
+    font-size: 1.2rem;
     background: #ffecc2;
     color: #555;
 }
