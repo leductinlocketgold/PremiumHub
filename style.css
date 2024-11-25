@@ -13,11 +13,11 @@ body {
 /* Header */
 .header {
     background-color: #FFD700; /* Màu vàng gold */
-    padding: 50px 0;
+    padding: 40px 0;
 }
 
 .header-container h1 {
-    font-size: 64px; /* Chữ tiêu đề lớn hơn */
+    font-size: 48px; /* Chữ tiêu đề vừa phải */
     color: #fff;
     margin: 0;
 }
@@ -25,11 +25,11 @@ body {
 .nav-links button {
     background-color: #333;
     color: white;
-    padding: 20px 30px; /* Tăng kích thước nút */
+    padding: 15px 25px; /* Vừa phải */
     margin: 10px;
     border: none;
     cursor: pointer;
-    font-size: 22px; /* Tăng kích thước chữ trong nút */
+    font-size: 18px; /* Kích thước chữ vừa phải */
     border-radius: 5px;
 }
 
@@ -40,20 +40,20 @@ body {
 /* Các phần của ứng dụng */
 .app-section {
     background-color: #fff;
-    margin: 40px 10%;
-    padding: 30px;
+    margin: 30px 10%;
+    padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .app-section h2 {
     color: #333;
-    font-size: 48px; /* Tăng kích thước chữ cho tiêu đề phần */
-    margin-bottom: 20px;
+    font-size: 36px; /* Tiêu đề vừa phải */
+    margin-bottom: 15px;
 }
 
 .app-section p {
-    font-size: 22px; /* Tăng kích thước chữ cho nội dung */
+    font-size: 18px; /* Nội dung chữ dễ đọc */
     line-height: 1.8;
     color: #555;
 }
@@ -64,17 +64,17 @@ body {
 }
 
 .app-section ul li {
-    margin-bottom: 20px;
-    font-size: 20px; /* Tăng kích thước chữ cho danh sách */
+    margin-bottom: 15px;
+    font-size: 18px; /* Kích thước chữ vừa phải */
 }
 
 .app-section a.action-button {
     display: inline-block;
-    margin-top: 20px;
-    padding: 15px 30px;
+    margin-top: 15px;
+    padding: 12px 25px;
     background-color: #333;
     color: #fff;
-    font-size: 22px;
+    font-size: 18px;
     text-decoration: none;
     border-radius: 5px;
 }
@@ -86,24 +86,24 @@ body {
 /* Phần liên hệ và giá */
 .pricing-section {
     background-color: #FFD700; /* Màu vàng gold */
-    padding: 40px 0;
+    padding: 30px 0;
 }
 
 .pricing-section h2 {
-    font-size: 50px; /* Tăng kích thước chữ cho tiêu đề */
+    font-size: 40px; /* Tiêu đề vừa phải */
     color: #fff;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 .pricing-section p {
-    font-size: 24px;
+    font-size: 20px;
     color: #fff;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 .pricing-section a.action-button {
-    font-size: 24px;
-    padding: 20px 40px;
+    font-size: 20px;
+    padding: 15px 30px;
     background-color: #333;
     color: #fff;
     text-decoration: none;
@@ -115,7 +115,7 @@ body {
 }
 
 .pricing-section a {
-    font-size: 22px;
+    font-size: 18px;
     color: #fff;
     margin: 10px;
     text-decoration: none;
@@ -128,19 +128,19 @@ body {
 /* Phần khách hàng */
 .review-section {
     background-color: #fff;
-    padding: 40px 10%;
+    padding: 30px 10%;
 }
 
 .review-section h2 {
-    font-size: 48px; /* Tăng kích thước chữ cho tiêu đề phần */
+    font-size: 36px; /* Tiêu đề vừa phải */
     color: #333;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 .review-section p {
-    font-size: 22px;
+    font-size: 18px;
     color: #555;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 /* Phần Footer */
@@ -148,7 +148,7 @@ footer {
     background-color: #333;
     color: #fff;
     padding: 20px 0;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 footer p {
@@ -169,8 +169,8 @@ footer p {
 .snowflake {
     position: absolute;
     top: -10px;
-    color: white;
-    font-size: 24px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
     user-select: none;
     animation: fall 10s linear infinite;
 }
